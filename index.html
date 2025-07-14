@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mind Chatbot</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 2rem; }
+    #chat { max-width: 600px; margin: auto; }
+    .bubble { padding: 1rem; border-radius: 10px; margin-bottom: 1rem; }
+    .user { background-color: #dcf8c6; text-align: right; }
+    .bot { background-color: #f1f0f0; text-align: left; }
+    input, button { padding: 0.5rem; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <div id="chat"></div>
+  <div style="text-align:center;">
+    <input id="userInput" placeholder="ถามอะไรก็ได้..." />
+    <button onclick="sendMessage()">ส่ง</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
